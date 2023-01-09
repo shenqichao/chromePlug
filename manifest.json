@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "google翻译",
+    "description": "选中可以右键谷歌翻译",
+    "version": "1.0.0",
+    "icons": {
+        "48": "images/logo.png"
+    },
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+    "action":{
+        "default_icon":{
+            "48":"images/logo.png"
+        }
+    },
+    "permissions": ["contextMenus","activeTab","scripting"]
+}
